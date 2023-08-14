@@ -12,7 +12,7 @@ import Genres from "../genres/Genres";
 
 import "./carousel.scss";
 import dayjs from "dayjs";
-import CircleRating from "../circleRating/CircleRating";
+import CircleRating from "../ocirclerating/CircleRating";
 const Carousel = ({ data, loading,endPoint ,title}) => {
   const carouselContainer = useRef();
 
