@@ -8,7 +8,7 @@ import "./explore.scss";
 import useFetch from "../../hooks/useFetch";
 import { fetchDataFromApi } from "../../utils/api";
 import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
-import MovieCard from "../../components/moviecardss/MovieCard";
+import MovieCard from "../../components/omoviecardss/MovieCard";
 import Spinner from "../../components/spinner/Spinner";
 
 let filters = {};

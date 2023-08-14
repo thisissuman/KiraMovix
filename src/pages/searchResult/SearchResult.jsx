@@ -5,7 +5,7 @@ import { fetchDataFromApi } from "../../utils/api";
 import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
 import { useParams } from "react-router-dom";
 import Spinner from "../../components/spinner/Spinner";
-import MovieCard from "../../components/moviecardss/MovieCard";
+import MovieCard from "../../components/omoviecardss/MovieCard";
 
 const SearchResult = () => {
   const [data, setdata] = useState(null);
